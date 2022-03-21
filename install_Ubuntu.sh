@@ -17,9 +17,5 @@ echo ""
 echo "Build EgonCoin"
 make all
 
-cd build/bin/
-
-./geth init ../../genesis.json
-
 echo ""
 echo "Installation is now complete"
