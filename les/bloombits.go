@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/bitutil"
-	"github.com/topdefi/Coin-Shiv/light"
+	"github.com/topdefi/egoncoin/common/bitutil"
+	"github.com/topdefi/egoncoin/light"
 )
 
 const (

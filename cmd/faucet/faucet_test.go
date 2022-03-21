@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func TestFacebook(t *testing.T) {

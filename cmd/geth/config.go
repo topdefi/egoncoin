@@ -27,17 +27,17 @@ import (
 
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/topdefi/Coin-Shiv/accounts/external"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/accounts/scwallet"
-	"github.com/topdefi/Coin-Shiv/accounts/usbwallet"
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/metrics"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/accounts/external"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/accounts/scwallet"
+	"github.com/topdefi/egoncoin/accounts/usbwallet"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/metrics"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/params"
 	"github.com/naoina/toml"
 )
 

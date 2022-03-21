@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	cmath "github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	cmath "github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/params"
 )
 
 var emptyCodeHash = crypto.Keccak256Hash(nil)

@@ -19,12 +19,12 @@ package tests
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // TransactionTest checks RLP decoding and sender derivation of transactions.

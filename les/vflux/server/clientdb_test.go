@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/les/utils"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/les/utils"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 func expval(v uint64) utils.ExpiredValue {

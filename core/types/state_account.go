@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // StateAccount is the Ethereum consensus representation of accounts.

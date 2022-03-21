@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 // TestDatabaseSuite runs a suite of tests against a KeyValueStore database

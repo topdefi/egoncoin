@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/beacon"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/eth"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/beacon"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/eth"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // Register adds catalyst APIs to the full node.

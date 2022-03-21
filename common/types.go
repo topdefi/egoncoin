@@ -28,7 +28,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
+	"github.com/topdefi/egoncoin/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 	"github.com/stretchr/testify/require"
 )
 

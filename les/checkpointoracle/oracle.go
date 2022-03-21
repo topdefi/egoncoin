@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/contracts/checkpointoracle"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/contracts/checkpointoracle"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // CheckpointOracle is responsible for offering the latest stable checkpoint

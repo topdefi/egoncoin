@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func TestInterfaceGetSet(t *testing.T) {

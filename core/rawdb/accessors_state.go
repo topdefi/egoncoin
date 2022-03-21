@@ -17,9 +17,9 @@
 package rawdb
 
 import (
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // ReadPreimage retrieves a single preimage of the provided hash.

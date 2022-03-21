@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/enr"
+	"github.com/topdefi/egoncoin/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

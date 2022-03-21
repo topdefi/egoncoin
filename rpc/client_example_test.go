@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

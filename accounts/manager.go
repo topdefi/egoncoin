@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/event"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

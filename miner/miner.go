@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

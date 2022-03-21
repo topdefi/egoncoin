@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/cmd/evm/internal/t8ntool"
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/internal/flags"
+	"github.com/topdefi/egoncoin/cmd/evm/internal/t8ntool"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

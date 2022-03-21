@@ -26,12 +26,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/forkid"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/forkid"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 type Chain struct {

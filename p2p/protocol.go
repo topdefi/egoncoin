@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

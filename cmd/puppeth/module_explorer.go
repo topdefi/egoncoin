@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

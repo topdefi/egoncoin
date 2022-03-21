@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

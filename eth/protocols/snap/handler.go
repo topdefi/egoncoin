@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/light"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/metrics"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/light"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/metrics"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enr"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/trie"
 )
 
 const (

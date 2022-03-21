@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/les/fetcher"
-	"github.com/topdefi/Coin-Shiv/light"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/les/fetcher"
+	"github.com/topdefi/egoncoin/light"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 const (

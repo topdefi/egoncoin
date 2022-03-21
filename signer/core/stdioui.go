@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 type StdIOUI struct {

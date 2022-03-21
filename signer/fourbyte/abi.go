@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

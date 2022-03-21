@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/state/snapshot"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/state/snapshot"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.

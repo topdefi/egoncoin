@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

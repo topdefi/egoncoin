@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

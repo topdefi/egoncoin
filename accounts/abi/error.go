@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 type Error struct {

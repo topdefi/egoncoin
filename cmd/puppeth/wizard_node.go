@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

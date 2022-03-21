@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/forkid"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/forkid"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // Tests that handshake failures are detected and reported correctly.

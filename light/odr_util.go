@@ -22,11 +22,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

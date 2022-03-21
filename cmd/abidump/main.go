@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
-	"github.com/topdefi/Coin-Shiv/signer/fourbyte"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/signer/fourbyte"
 )
 
 func init() {

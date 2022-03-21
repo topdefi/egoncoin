@@ -35,25 +35,25 @@ import (
 	"strings"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/internal/flags"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/rpc"
-	"github.com/topdefi/Coin-Shiv/signer/core"
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
-	"github.com/topdefi/Coin-Shiv/signer/fourbyte"
-	"github.com/topdefi/Coin-Shiv/signer/rules"
-	"github.com/topdefi/Coin-Shiv/signer/storage"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/internal/flags"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/rpc"
+	"github.com/topdefi/egoncoin/signer/core"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/signer/fourbyte"
+	"github.com/topdefi/egoncoin/signer/rules"
+	"github.com/topdefi/egoncoin/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"
@@ -795,7 +795,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/topdefi/Coin-Shiv/issues/20123
+	// https://github.com/topdefi/egoncoin/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

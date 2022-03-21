@@ -26,9 +26,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // prepare converts an ethash cache or dataset from a byte stream into the internal

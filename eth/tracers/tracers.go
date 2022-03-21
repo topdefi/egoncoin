@@ -21,8 +21,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/vm"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/vm"
 )
 
 // Context contains some contextual infos for a transaction execution that is not

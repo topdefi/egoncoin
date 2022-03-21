@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

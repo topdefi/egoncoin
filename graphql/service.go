@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/node"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/node"
 	"github.com/graph-gophers/graphql-go"
 )
 

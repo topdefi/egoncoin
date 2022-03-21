@@ -19,7 +19,7 @@ package miner
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

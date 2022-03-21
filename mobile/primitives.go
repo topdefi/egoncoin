@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // Strings represents s slice of strs.

@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // Signer is an interface defining the callback when a contract requires a

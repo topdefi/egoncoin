@@ -17,10 +17,10 @@
 package les
 
 import (
-	"github.com/topdefi/Coin-Shiv/core/forkid"
-	"github.com/topdefi/Coin-Shiv/p2p/dnsdisc"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/core/forkid"
+	"github.com/topdefi/egoncoin/p2p/dnsdisc"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

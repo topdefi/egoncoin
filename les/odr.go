@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/light"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/light"
 )
 
 // LesOdr implements light.OdrBackend

@@ -1,4 +1,4 @@
-module github.com/topdefi/Coin-Shiv
+module github.com/topdefi/egoncoin
 
 go 1.15
 

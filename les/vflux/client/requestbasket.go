@@ -19,8 +19,8 @@ package client
 import (
 	"io"
 
-	"github.com/topdefi/Coin-Shiv/les/utils"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/les/utils"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 const basketFactor = 1000000 // reference basket amount and value scale factor

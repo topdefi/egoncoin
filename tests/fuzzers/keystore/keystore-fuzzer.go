@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
+	"github.com/topdefi/egoncoin/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

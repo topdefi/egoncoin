@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

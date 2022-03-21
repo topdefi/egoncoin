@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/event"
+	"github.com/topdefi/egoncoin/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

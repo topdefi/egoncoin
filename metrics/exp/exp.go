@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/metrics"
-	"github.com/topdefi/Coin-Shiv/metrics/prometheus"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/metrics"
+	"github.com/topdefi/egoncoin/metrics/prometheus"
 )
 
 type exp struct {

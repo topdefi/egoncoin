@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // Subscription represents an event subscription where events are

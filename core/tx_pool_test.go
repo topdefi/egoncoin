@@ -28,14 +28,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/trie"
 )
 
 var (

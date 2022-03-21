@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 func minSwapStack(n int) int {

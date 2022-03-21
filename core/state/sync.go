@@ -19,11 +19,11 @@ package state
 import (
 	"bytes"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

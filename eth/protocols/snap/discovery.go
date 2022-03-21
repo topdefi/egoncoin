@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `snap` protocol on the discovery.

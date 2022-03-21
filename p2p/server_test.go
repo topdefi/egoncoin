@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/internal/testlog"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
-	"github.com/topdefi/Coin-Shiv/p2p/rlpx"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/internal/testlog"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enr"
+	"github.com/topdefi/egoncoin/p2p/rlpx"
 )
 
 type testTransport struct {

@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 type stateTest struct {

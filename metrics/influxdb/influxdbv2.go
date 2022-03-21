@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/metrics"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
 )

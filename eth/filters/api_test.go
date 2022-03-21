@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

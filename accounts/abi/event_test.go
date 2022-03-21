@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -20,8 +20,8 @@
 package node
 
 import (
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // NoopLifecycle is a trivial implementation of the Service interface.

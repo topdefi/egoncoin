@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }

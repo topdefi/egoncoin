@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/core/asm"
+	"github.com/topdefi/egoncoin/core/asm"
 	"gopkg.in/urfave/cli.v1"
 )
 

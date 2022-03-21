@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // transitionStatus describes the status of eth1/2 transition. This switch

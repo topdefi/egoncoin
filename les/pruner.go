@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // pruner is responsible for pruning historical light chain data.

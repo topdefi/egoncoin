@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

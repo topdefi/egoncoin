@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // MarshalJSON marshals as JSON.

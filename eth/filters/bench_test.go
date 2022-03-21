@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/bitutil"
-	"github.com/topdefi/Coin-Shiv/core/bloombits"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/node"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/bitutil"
+	"github.com/topdefi/egoncoin/core/bloombits"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

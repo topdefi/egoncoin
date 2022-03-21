@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

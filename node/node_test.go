@@ -28,10 +28,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/rpc"
 
 	"github.com/stretchr/testify/assert"
 )

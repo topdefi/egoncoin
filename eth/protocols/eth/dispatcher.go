@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 var (

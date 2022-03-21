@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p/discover"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/nat"
-	"github.com/topdefi/Coin-Shiv/p2p/netutil"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p/discover"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/nat"
+	"github.com/topdefi/egoncoin/p2p/netutil"
 )
 
 func main() {

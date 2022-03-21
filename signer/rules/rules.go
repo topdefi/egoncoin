@@ -23,11 +23,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/internal/jsre/deps"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/signer/core"
-	"github.com/topdefi/Coin-Shiv/signer/storage"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/internal/jsre/deps"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/signer/core"
+	"github.com/topdefi/egoncoin/signer/storage"
 )
 
 var (

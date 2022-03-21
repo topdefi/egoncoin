@@ -35,7 +35,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/hashicorp/go-bexpr"
 )
 

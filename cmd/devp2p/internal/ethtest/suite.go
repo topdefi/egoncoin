@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/internal/utesting"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/internal/utesting"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

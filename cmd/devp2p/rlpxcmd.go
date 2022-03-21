@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/topdefi/Coin-Shiv/cmd/devp2p/internal/ethtest"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/internal/utesting"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/rlpx"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/cmd/devp2p/internal/ethtest"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/internal/utesting"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/rlpx"
+	"github.com/topdefi/egoncoin/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

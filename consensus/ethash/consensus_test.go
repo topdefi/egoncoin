@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/params"
 )
 
 type diffTest struct {

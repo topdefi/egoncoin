@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/cmd/devp2p/internal/v4test"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/discover"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/cmd/devp2p/internal/v4test"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/discover"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

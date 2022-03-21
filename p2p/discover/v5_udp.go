@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p/discover/v5wire"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
-	"github.com/topdefi/Coin-Shiv/p2p/netutil"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p/discover/v5wire"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enr"
+	"github.com/topdefi/egoncoin/p2p/netutil"
 )
 
 const (

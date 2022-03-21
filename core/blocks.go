@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/topdefi/Coin-Shiv/common"
+import "github.com/topdefi/egoncoin/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

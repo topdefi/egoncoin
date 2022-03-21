@@ -26,22 +26,22 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/eth/tracers"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/tests"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/eth/tracers"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/tests"
 
 	// Force-load native and js pacakges, to trigger registration
-	_ "github.com/topdefi/Coin-Shiv/eth/tracers/js"
-	_ "github.com/topdefi/Coin-Shiv/eth/tracers/native"
+	_ "github.com/topdefi/egoncoin/eth/tracers/js"
+	_ "github.com/topdefi/egoncoin/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/snap"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/eth/protocols/snap"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 var (

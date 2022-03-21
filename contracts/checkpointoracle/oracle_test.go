@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind/backends"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/contracts/checkpointoracle/contract"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/accounts/abi/bind/backends"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/contracts/checkpointoracle/contract"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/params"
 )
 
 var (

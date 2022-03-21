@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 func newTestFullNode(v []byte) []interface{} {

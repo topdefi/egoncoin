@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/core/asm"
+	"github.com/topdefi/egoncoin/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

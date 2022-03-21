@@ -22,13 +22,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/crypto/blake2b"
-	"github.com/topdefi/Coin-Shiv/crypto/bls12381"
-	"github.com/topdefi/Coin-Shiv/crypto/bn256"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/crypto/blake2b"
+	"github.com/topdefi/egoncoin/crypto/bls12381"
+	"github.com/topdefi/egoncoin/crypto/bn256"
+	"github.com/topdefi/egoncoin/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

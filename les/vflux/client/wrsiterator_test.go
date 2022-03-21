@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/p2p/nodestate"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/p2p/nodestate"
 )
 
 var (

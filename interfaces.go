@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

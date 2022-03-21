@@ -24,8 +24,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/crypto/secp256k1"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

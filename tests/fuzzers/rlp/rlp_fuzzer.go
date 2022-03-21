@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 func decodeEncode(input []byte, val interface{}, i int) {

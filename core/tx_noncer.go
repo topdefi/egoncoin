@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/state"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

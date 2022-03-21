@@ -20,7 +20,7 @@
 package metrics
 
 import (
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/shirou/gopsutil/cpu"
 )
 

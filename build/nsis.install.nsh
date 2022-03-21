@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/topdefi/Coin-Shiv/issues"
-!define UPDATEURL "https://github.com/topdefi/Coin-Shiv/releases"
-!define ABOUTURL "https://github.com/topdefi/Coin-Shiv#ethereum-go"
+!define HELPURL "https://github.com/topdefi/egoncoin/issues"
+!define UPDATEURL "https://github.com/topdefi/egoncoin/releases"
+!define ABOUTURL "https://github.com/topdefi/egoncoin#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

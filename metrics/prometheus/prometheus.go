@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

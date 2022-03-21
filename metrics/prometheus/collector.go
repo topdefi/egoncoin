@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 var (

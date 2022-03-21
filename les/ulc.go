@@ -19,8 +19,8 @@ package les
 import (
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 type ulc struct {

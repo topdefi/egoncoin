@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/olekukonko/tablewriter"
 )
 

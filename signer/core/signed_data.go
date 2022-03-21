@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"mime"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/consensus/clique"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/consensus/clique"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
 )
 
 // sign receives a request and produces a signature
@@ -279,7 +279,7 @@ func (api *SignerAPI) EcRecover(ctx context.Context, data hexutil.Bytes, sig hex
 	// Note, the signature must conform to the secp256k1 curve R, S and V values, where
 	// the V value must be be 27 or 28 for legacy reasons.
 	//
-	// https://github.com/topdefi/Coin-Shiv/wiki/Management-APIs#personal_ecRecover
+	// https://github.com/topdefi/egoncoin/wiki/Management-APIs#personal_ecRecover
 	if len(sig) != 65 {
 		return common.Address{}, fmt.Errorf("signature must be 65 bytes long")
 	}

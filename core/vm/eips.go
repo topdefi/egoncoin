@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 	"github.com/holiman/uint256"
 )
 

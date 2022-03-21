@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func (g *G2) one() *PointG2 {

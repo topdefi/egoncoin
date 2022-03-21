@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/tests"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 

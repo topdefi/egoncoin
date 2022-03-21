@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

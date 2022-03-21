@@ -28,9 +28,9 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

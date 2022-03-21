@@ -20,7 +20,7 @@ import (
 	"math/bits"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

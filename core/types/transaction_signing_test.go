@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

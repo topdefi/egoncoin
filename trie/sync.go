@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/prque"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/prque"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

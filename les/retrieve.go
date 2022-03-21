@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/light"
+	"github.com/topdefi/egoncoin/light"
 )
 
 var (

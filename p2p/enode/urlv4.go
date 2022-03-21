@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/enr"
 )
 
 var (

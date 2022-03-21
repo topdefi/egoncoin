@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/topdefi/Coin-Shiv.git
-Vcs-Browser: https://github.com/topdefi/Coin-Shiv
+Vcs-Git: git://github.com/topdefi/egoncoin.git
+Vcs-Browser: https://github.com/topdefi/egoncoin
 
 Package: {{.Name}}
 Architecture: any

@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/snap"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/eth/protocols/snap"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // Tests that snap sync is disabled after a successful sync cycle.

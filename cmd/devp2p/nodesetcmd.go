@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/core/forkid"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/core/forkid"
+	"github.com/topdefi/egoncoin/p2p/enr"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

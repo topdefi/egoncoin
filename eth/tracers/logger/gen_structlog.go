@@ -5,10 +5,10 @@ package logger
 import (
 	"encoding/json"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core/vm"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core/vm"
 	"github.com/holiman/uint256"
 )
 

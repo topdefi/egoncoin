@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

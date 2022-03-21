@@ -20,7 +20,7 @@ make all
 ### Ubuntu 18.04 + 20.04
 Clone EgonCoin
 ```
-https://github.dev/topdefi/Coin-Shiv
+https://github.dev/topdefi/egoncoin
 ```
 
 Setup Go path

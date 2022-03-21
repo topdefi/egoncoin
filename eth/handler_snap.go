@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/snap"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/eth/protocols/snap"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

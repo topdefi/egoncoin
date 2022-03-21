@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/eth/tracers"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/eth/tracers"
+	"github.com/topdefi/egoncoin/params"
 )
 
 type account struct{}

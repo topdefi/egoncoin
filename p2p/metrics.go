@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 const (

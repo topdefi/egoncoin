@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/nat"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/nat"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 const (

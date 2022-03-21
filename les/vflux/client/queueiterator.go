@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/nodestate"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/nodestate"
 )
 
 // QueueIterator returns nodes from the specified selectable set in the same order as

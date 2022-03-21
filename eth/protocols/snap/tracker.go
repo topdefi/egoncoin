@@ -19,7 +19,7 @@ package snap
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/p2p/tracker"
+	"github.com/topdefi/egoncoin/p2p/tracker"
 )
 
 // requestTracker is a singleton tracker for request times.

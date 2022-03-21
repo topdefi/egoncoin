@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/topdefi/Coin-Shiv/node"
+	"github.com/topdefi/egoncoin/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

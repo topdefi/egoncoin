@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // Type enumerator

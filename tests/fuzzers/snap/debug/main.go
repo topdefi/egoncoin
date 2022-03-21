@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/tests/fuzzers/snap"
+	"github.com/topdefi/egoncoin/tests/fuzzers/snap"
 )
 
 func main() {

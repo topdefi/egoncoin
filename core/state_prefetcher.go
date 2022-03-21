@@ -19,11 +19,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // statePrefetcher is a basic Prefetcher, which blindly executes a block on top

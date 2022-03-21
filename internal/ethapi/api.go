@@ -25,27 +25,27 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/accounts/scwallet"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/consensus/clique"
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/consensus/misc"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/eth/tracers/logger"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/accounts/scwallet"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/consensus/clique"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/consensus/misc"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/eth/tracers/logger"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -513,7 +513,7 @@ func (s *PrivateAccountAPI) SignTransaction(ctx context.Context, args Transactio
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/topdefi/Coin-Shiv/wiki/Management-APIs#personal_sign
+// https://github.com/topdefi/egoncoin/wiki/Management-APIs#personal_sign
 func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -541,7 +541,7 @@ func (s *PrivateAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr c
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/topdefi/Coin-Shiv/wiki/Management-APIs#personal_ecRecover
+// https://github.com/topdefi/egoncoin/wiki/Management-APIs#personal_ecRecover
 func (s *PrivateAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

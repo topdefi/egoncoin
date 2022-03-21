@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 // NoOdr is the default context passed to an ODR capable function when the ODR

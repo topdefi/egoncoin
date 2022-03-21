@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/math"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/math"
 )
 
 func TestBlockNumberJSONUnmarshal(t *testing.T) {

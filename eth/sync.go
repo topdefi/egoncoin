@@ -21,12 +21,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/log"
 )
 
 const (

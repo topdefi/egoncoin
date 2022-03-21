@@ -17,9 +17,9 @@
 package core
 
 import (
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

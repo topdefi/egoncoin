@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

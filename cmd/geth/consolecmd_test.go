@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 const (

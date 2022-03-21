@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

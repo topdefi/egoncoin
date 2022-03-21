@@ -17,9 +17,9 @@
 package snap
 
 import (
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 // Peer is a collection of relevant information we have about a `snap` peer.

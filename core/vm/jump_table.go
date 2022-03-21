@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 type (

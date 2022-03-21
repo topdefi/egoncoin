@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {

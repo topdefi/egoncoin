@@ -21,15 +21,15 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/light"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rlp"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/light"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rlp"
+	"github.com/topdefi/egoncoin/trie"
 )
 
 var (

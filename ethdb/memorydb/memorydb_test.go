@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/ethdb/dbtest"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

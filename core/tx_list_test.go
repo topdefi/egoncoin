@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

@@ -25,10 +25,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 var ErrCommitDisabled = errors.New("no database for committing")

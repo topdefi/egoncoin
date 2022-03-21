@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

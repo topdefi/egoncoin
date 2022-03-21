@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/p2p/simulations/pipes"
+	"github.com/topdefi/egoncoin/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/les/utils"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/les/utils"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 const (

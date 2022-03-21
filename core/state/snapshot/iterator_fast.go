@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // weightedIterator is a iterator with an assigned weight. It is used to prioritise

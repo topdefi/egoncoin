@@ -34,9 +34,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/crypto/ecies"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/crypto/ecies"
+	"github.com/topdefi/egoncoin/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

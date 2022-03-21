@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

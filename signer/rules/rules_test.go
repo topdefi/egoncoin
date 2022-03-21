@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/signer/core"
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
-	"github.com/topdefi/Coin-Shiv/signer/storage"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/signer/core"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/signer/storage"
 )
 
 const JS = `

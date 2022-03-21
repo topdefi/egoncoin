@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/internal/debug"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/internal/debug"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

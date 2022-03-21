@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 type (

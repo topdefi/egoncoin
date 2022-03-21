@@ -19,7 +19,7 @@ package catalyst
 import (
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/core/beacon"
+	"github.com/topdefi/egoncoin/core/beacon"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/ethdb/memorydb"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/ethdb/memorydb"
+	"github.com/topdefi/egoncoin/p2p/enode"
 
-	"github.com/topdefi/Coin-Shiv/les/utils"
+	"github.com/topdefi/egoncoin/les/utils"
 )
 
 const (

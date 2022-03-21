@@ -20,7 +20,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

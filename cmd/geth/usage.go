@@ -22,9 +22,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/internal/debug"
-	"github.com/topdefi/Coin-Shiv/internal/flags"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/internal/debug"
+	"github.com/topdefi/egoncoin/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 // The ABI holds information about a contract's context and available

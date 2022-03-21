@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/light"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/light"
 )
 
 var testBankSecureTrieKey = secAddr(bankAddr)

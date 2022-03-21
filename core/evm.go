@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

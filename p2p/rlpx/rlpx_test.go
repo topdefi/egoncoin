@@ -29,10 +29,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/crypto/ecies"
-	"github.com/topdefi/Coin-Shiv/p2p/simulations/pipes"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/crypto/ecies"
+	"github.com/topdefi/egoncoin/p2p/simulations/pipes"
+	"github.com/topdefi/egoncoin/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

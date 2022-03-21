@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

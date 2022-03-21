@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
-	"github.com/topdefi/Coin-Shiv/ethclient"
-	"github.com/topdefi/Coin-Shiv/ethstats"
-	"github.com/topdefi/Coin-Shiv/internal/debug"
-	"github.com/topdefi/Coin-Shiv/les"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/nat"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
+	"github.com/topdefi/egoncoin/ethclient"
+	"github.com/topdefi/egoncoin/ethstats"
+	"github.com/topdefi/egoncoin/internal/debug"
+	"github.com/topdefi/egoncoin/les"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/nat"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

@@ -19,7 +19,7 @@ package snap
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 	"github.com/holiman/uint256"
 )
 

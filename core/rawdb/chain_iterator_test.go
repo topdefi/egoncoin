@@ -23,8 +23,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

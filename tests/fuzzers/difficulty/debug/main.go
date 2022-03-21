@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/tests/fuzzers/difficulty"
+	"github.com/topdefi/egoncoin/tests/fuzzers/difficulty"
 )
 
 func main() {

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/rlpx"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/rlpx"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 type Message interface {

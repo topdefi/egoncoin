@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/common/fdlimit"
-	"github.com/topdefi/Coin-Shiv/internal/flags"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common/fdlimit"
+	"github.com/topdefi/egoncoin/internal/flags"
+	"github.com/topdefi/egoncoin/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

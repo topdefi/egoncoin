@@ -27,11 +27,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/eth/tracers/logger"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

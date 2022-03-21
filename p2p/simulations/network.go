@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/simulations/adapters"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

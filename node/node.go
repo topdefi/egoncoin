@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/rpc"
 	"github.com/prometheus/tsdb/fileutil"
 )
 

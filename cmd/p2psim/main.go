@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/simulations"
-	"github.com/topdefi/Coin-Shiv/p2p/simulations/adapters"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/simulations"
+	"github.com/topdefi/egoncoin/p2p/simulations/adapters"
+	"github.com/topdefi/egoncoin/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

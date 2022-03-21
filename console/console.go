@@ -31,11 +31,11 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/topdefi/Coin-Shiv/console/prompt"
-	"github.com/topdefi/Coin-Shiv/internal/jsre"
-	"github.com/topdefi/Coin-Shiv/internal/jsre/deps"
-	"github.com/topdefi/Coin-Shiv/internal/web3ext"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/console/prompt"
+	"github.com/topdefi/egoncoin/internal/jsre"
+	"github.com/topdefi/egoncoin/internal/jsre/deps"
+	"github.com/topdefi/egoncoin/internal/web3ext"
+	"github.com/topdefi/egoncoin/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 )

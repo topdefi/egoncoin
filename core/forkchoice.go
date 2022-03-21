@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

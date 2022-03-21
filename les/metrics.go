@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/topdefi/Coin-Shiv/metrics"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/metrics"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 var (

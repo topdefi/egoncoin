@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

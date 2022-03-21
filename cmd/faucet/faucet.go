@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
-	"github.com/topdefi/Coin-Shiv/ethclient"
-	"github.com/topdefi/Coin-Shiv/ethstats"
-	"github.com/topdefi/Coin-Shiv/les"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/p2p"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/nat"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
+	"github.com/topdefi/egoncoin/ethclient"
+	"github.com/topdefi/egoncoin/ethstats"
+	"github.com/topdefi/egoncoin/les"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/p2p"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/nat"
+	"github.com/topdefi/egoncoin/params"
 	"github.com/gorilla/websocket"
 )
 
@@ -469,7 +469,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/topdefi/Coin-Shiv/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/topdefi/egoncoin/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

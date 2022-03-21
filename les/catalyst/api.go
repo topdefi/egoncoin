@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/beacon"
-	"github.com/topdefi/Coin-Shiv/les"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/beacon"
+	"github.com/topdefi/egoncoin/les"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

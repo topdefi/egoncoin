@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

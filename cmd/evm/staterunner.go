@@ -23,11 +23,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/eth/tracers/logger"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/tests"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/eth/tracers/logger"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/tests"
 
 	"gopkg.in/urfave/cli.v1"
 )

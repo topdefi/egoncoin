@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/eth"
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
-	"github.com/topdefi/Coin-Shiv/internal/utesting"
-	"github.com/topdefi/Coin-Shiv/node"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/eth"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
+	"github.com/topdefi/egoncoin/internal/utesting"
+	"github.com/topdefi/egoncoin/node"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 var (

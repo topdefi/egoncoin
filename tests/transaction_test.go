@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 func TestTransaction(t *testing.T) {

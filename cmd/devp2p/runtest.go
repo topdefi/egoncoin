@@ -19,9 +19,9 @@ package main
 import (
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/cmd/devp2p/internal/v4test"
-	"github.com/topdefi/Coin-Shiv/internal/utesting"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/cmd/devp2p/internal/v4test"
+	"github.com/topdefi/egoncoin/internal/utesting"
+	"github.com/topdefi/egoncoin/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

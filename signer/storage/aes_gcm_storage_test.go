@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/mattn/go-colorable"
 )
 

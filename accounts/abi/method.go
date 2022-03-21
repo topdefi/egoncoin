@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

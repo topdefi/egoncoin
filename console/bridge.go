@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/topdefi/Coin-Shiv/accounts/scwallet"
-	"github.com/topdefi/Coin-Shiv/accounts/usbwallet"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/console/prompt"
-	"github.com/topdefi/Coin-Shiv/internal/jsre"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/accounts/scwallet"
+	"github.com/topdefi/egoncoin/accounts/usbwallet"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/console/prompt"
+	"github.com/topdefi/egoncoin/internal/jsre"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

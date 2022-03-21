@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/console/prompt"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/eth"
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
-	"github.com/topdefi/Coin-Shiv/internal/jsre"
-	"github.com/topdefi/Coin-Shiv/miner"
-	"github.com/topdefi/Coin-Shiv/node"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/console/prompt"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/eth"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
+	"github.com/topdefi/egoncoin/internal/jsre"
+	"github.com/topdefi/egoncoin/miner"
+	"github.com/topdefi/egoncoin/node"
 )
 
 const (

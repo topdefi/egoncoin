@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 const (

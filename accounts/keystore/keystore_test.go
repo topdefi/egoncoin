@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/event"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/event"
 )
 
 var testSigData = make([]byte, 32)

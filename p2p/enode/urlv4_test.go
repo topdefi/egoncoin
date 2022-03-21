@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/enr"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/enr"
 )
 
 func init() {

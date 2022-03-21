@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/console/prompt"
-	"github.com/topdefi/Coin-Shiv/p2p/dnsdisc"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/console/prompt"
+	"github.com/topdefi/egoncoin/p2p/dnsdisc"
+	"github.com/topdefi/egoncoin/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

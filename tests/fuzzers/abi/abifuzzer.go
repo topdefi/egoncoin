@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
+	"github.com/topdefi/egoncoin/accounts/abi"
 	fuzz "github.com/google/gofuzz"
 )
 

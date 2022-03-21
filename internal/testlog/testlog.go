@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

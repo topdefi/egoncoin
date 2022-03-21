@@ -19,9 +19,9 @@ package client
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/les/utils"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/les/utils"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // PrivateClientAPI implements the vflux client side API

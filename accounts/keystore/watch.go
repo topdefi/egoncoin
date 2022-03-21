@@ -22,7 +22,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/rjeczalik/notify"
 )
 

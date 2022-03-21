@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

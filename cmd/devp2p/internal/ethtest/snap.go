@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/eth/protocols/snap"
-	"github.com/topdefi/Coin-Shiv/internal/utesting"
-	"github.com/topdefi/Coin-Shiv/light"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/eth/protocols/snap"
+	"github.com/topdefi/egoncoin/internal/utesting"
+	"github.com/topdefi/egoncoin/light"
+	"github.com/topdefi/egoncoin/trie"
 	"golang.org/x/crypto/sha3"
 )
 

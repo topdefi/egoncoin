@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/ethdb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/ethdb"
 )
 
 // Iterator is an iterator to step over all the accounts or the specific

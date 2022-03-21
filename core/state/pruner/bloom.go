@@ -21,9 +21,9 @@ import (
 	"errors"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/log"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
 )
 

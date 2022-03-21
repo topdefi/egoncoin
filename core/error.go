@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 var (

@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/ethdb/memorydb"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

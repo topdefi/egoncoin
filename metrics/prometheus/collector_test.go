@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 func TestMain(m *testing.M) {

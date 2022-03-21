@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 type AddrLocker struct {

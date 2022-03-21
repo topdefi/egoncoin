@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

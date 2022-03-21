@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/topdefi/Coin-Shiv/cmd/evm/internal/compiler"
+	"github.com/topdefi/egoncoin/cmd/evm/internal/compiler"
 
 	"gopkg.in/urfave/cli.v1"
 )

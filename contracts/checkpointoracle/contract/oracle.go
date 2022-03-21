@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/topdefi/Coin-Shiv"
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/event"
+	ethereum "github.com/topdefi/egoncoin"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

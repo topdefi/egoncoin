@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

@@ -16,7 +16,7 @@
 
 package beacon
 
-import "github.com/topdefi/Coin-Shiv/rpc"
+import "github.com/topdefi/egoncoin/rpc"
 
 var (
 	VALID              = GenericStringResponse{"VALID"}

@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common/math"
+	"github.com/topdefi/egoncoin/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

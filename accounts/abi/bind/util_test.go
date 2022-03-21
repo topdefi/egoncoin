@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind/backends"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/accounts/abi/bind/backends"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

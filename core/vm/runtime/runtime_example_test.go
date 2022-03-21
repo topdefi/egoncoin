@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/vm/runtime"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/vm/runtime"
 )
 
 func ExampleExecute() {

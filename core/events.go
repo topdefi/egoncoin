@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 	"github.com/stretchr/testify/require"
 )
 

@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 type packUnpackTest struct {

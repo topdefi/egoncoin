@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

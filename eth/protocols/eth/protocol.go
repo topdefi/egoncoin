@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/forkid"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/forkid"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // Constants to match up protocol versions and messages

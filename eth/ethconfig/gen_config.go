@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/eth/downloader"
-	"github.com/topdefi/Coin-Shiv/eth/gasprice"
-	"github.com/topdefi/Coin-Shiv/miner"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/eth/downloader"
+	"github.com/topdefi/egoncoin/eth/gasprice"
+	"github.com/topdefi/egoncoin/miner"
+	"github.com/topdefi/egoncoin/params"
 )
 
 // MarshalTOML marshals as TOML.

@@ -20,7 +20,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/les/utils"
+	"github.com/topdefi/egoncoin/les/utils"
 )
 
 func checkU64(t *testing.T, name string, value, exp uint64) {

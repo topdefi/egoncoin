@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

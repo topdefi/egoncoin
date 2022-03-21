@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

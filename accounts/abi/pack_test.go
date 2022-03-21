@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

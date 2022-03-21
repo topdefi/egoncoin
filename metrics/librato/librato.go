@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

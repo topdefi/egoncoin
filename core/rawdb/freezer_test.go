@@ -27,8 +27,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/rlp"
 	"github.com/stretchr/testify/require"
 )
 

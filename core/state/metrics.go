@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/topdefi/Coin-Shiv/metrics"
+import "github.com/topdefi/egoncoin/metrics"
 
 var (
 	accountUpdatedMeter   = metrics.NewRegisteredMeter("state/update/account", nil)

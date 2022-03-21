@@ -37,7 +37,7 @@ package native
 import (
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/eth/tracers"
+	"github.com/topdefi/egoncoin/eth/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 func TestMakeTopics(t *testing.T) {

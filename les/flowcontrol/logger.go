@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

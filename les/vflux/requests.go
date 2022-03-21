@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

@@ -19,9 +19,9 @@ package vm
 import (
 	"hash"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // Config are the configuration options for the Interpreter

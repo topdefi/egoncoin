@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/event"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/event"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/karalabe/usb"
 )
 

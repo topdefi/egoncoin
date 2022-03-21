@@ -19,8 +19,8 @@ package client
 import (
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
-	"github.com/topdefi/Coin-Shiv/p2p/nodestate"
+	"github.com/topdefi/egoncoin/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/nodestate"
 )
 
 // FillSet tries to read nodes from an input iterator and add them to a node set by

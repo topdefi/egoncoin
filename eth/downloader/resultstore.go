@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

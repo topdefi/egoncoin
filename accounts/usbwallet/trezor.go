@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/usbwallet/trezor"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/usbwallet/trezor"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/log"
 	"github.com/golang/protobuf/proto"
 )
 

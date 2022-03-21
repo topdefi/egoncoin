@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/bitutil"
-	"github.com/topdefi/Coin-Shiv/metrics"
-	"github.com/topdefi/Coin-Shiv/p2p/rlpx"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/bitutil"
+	"github.com/topdefi/egoncoin/metrics"
+	"github.com/topdefi/egoncoin/p2p/rlpx"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 const (

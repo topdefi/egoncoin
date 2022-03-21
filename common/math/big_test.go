@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

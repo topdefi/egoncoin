@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/event"
+	"github.com/topdefi/egoncoin/event"
 )
 
 func ExampleNewSubscription() {

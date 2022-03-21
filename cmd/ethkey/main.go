@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/internal/flags"
+	"github.com/topdefi/egoncoin/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

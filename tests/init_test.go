@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/params"
 )
 
 var (

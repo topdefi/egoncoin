@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

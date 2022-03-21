@@ -1,6 +1,6 @@
 package ethtest
 
-import "github.com/topdefi/Coin-Shiv/eth/protocols/snap"
+import "github.com/topdefi/egoncoin/eth/protocols/snap"
 
 // GetAccountRange represents an account range query.
 type GetAccountRange snap.GetAccountRangePacket

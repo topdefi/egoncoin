@@ -25,9 +25,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/internal/testlog"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/internal/testlog"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 )

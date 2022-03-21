@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/vm"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

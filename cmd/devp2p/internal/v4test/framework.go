@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/discover/v4wire"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/discover/v4wire"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 const waitTime = 300 * time.Millisecond

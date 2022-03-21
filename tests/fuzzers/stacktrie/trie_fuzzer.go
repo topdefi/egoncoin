@@ -25,9 +25,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/trie"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/trie"
 	"golang.org/x/crypto/sha3"
 )
 

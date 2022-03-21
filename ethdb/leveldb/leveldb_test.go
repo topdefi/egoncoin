@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/ethdb/dbtest"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

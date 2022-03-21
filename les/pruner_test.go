@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/light"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/light"
 )
 
 func TestLightPruner(t *testing.T) {

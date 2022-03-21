@@ -20,7 +20,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/console/prompt"
+	"github.com/topdefi/egoncoin/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

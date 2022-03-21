@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

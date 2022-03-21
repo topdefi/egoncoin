@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/abi/bind"
-	"github.com/topdefi/Coin-Shiv/accounts/external"
-	"github.com/topdefi/Coin-Shiv/cmd/utils"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/contracts/checkpointoracle"
-	"github.com/topdefi/Coin-Shiv/ethclient"
-	"github.com/topdefi/Coin-Shiv/params"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/abi/bind"
+	"github.com/topdefi/egoncoin/accounts/external"
+	"github.com/topdefi/egoncoin/cmd/utils"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/contracts/checkpointoracle"
+	"github.com/topdefi/egoncoin/ethclient"
+	"github.com/topdefi/egoncoin/params"
+	"github.com/topdefi/egoncoin/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,10 +19,10 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv"
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

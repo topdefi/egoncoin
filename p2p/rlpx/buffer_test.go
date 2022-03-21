@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
+	"github.com/topdefi/egoncoin/common/hexutil"
 	"github.com/stretchr/testify/assert"
 )
 

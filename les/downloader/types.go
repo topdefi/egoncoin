@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/bitutil"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/bitutil"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/log"
 	"golang.org/x/crypto/sha3"
 )
 

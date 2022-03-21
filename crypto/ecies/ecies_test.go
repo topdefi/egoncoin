@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 func TestKDF(t *testing.T) {

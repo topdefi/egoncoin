@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/topdefi/Coin-Shiv/crypto"
+	ethcrypto "github.com/topdefi/egoncoin/crypto"
 )
 
 var (

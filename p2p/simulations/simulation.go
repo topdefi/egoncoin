@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

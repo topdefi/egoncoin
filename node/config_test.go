@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

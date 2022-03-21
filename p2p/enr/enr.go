@@ -40,7 +40,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

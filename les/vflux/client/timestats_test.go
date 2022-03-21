@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/les/utils"
+	"github.com/topdefi/egoncoin/les/utils"
 )
 
 func TestTransition(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

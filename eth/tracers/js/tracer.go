@@ -28,14 +28,14 @@ import (
 	"unicode"
 	"unsafe"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	tracers2 "github.com/topdefi/Coin-Shiv/eth/tracers"
-	"github.com/topdefi/Coin-Shiv/eth/tracers/js/internal/tracers"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/crypto"
+	tracers2 "github.com/topdefi/egoncoin/eth/tracers"
+	"github.com/topdefi/egoncoin/eth/tracers/js/internal/tracers"
+	"github.com/topdefi/egoncoin/log"
 	"gopkg.in/olebedev/go-duktape.v3"
 )
 

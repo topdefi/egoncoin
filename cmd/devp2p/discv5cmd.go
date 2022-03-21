@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/cmd/devp2p/internal/v5test"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/p2p/discover"
+	"github.com/topdefi/egoncoin/cmd/devp2p/internal/v5test"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/p2p/discover"
 	"gopkg.in/urfave/cli.v1"
 )
 

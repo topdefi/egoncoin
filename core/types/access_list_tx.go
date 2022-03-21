@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/common"
 )
 
 var (

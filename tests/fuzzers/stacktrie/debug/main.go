@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/tests/fuzzers/stacktrie"
+	"github.com/topdefi/egoncoin/tests/fuzzers/stacktrie"
 )
 
 func main() {

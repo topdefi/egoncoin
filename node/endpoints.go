@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rpc"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rpc"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint.

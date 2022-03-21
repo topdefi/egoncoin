@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

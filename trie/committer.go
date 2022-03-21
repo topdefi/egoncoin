@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
 	"golang.org/x/crypto/sha3"
 )
 

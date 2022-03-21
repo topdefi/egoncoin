@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/p2p/enode"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -25,17 +25,17 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/topdefi/Coin-Shiv/accounts"
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/accounts/scwallet"
-	"github.com/topdefi/Coin-Shiv/accounts/usbwallet"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/internal/ethapi"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/rpc"
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
-	"github.com/topdefi/Coin-Shiv/signer/storage"
+	"github.com/topdefi/egoncoin/accounts"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/accounts/scwallet"
+	"github.com/topdefi/egoncoin/accounts/usbwallet"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/internal/ethapi"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/rpc"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/signer/storage"
 )
 
 const (

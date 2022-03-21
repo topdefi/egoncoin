@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

@@ -26,13 +26,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/accounts/keystore"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
-	"github.com/topdefi/Coin-Shiv/common/math"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/signer/core"
-	"github.com/topdefi/Coin-Shiv/signer/core/apitypes"
+	"github.com/topdefi/egoncoin/accounts/keystore"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/common/hexutil"
+	"github.com/topdefi/egoncoin/common/math"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/signer/core"
+	"github.com/topdefi/egoncoin/signer/core/apitypes"
 )
 
 var typesStandard = apitypes.Types{

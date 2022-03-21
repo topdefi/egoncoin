@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/eth/protocols/eth"
-	"github.com/topdefi/Coin-Shiv/p2p"
+	"github.com/topdefi/egoncoin/eth/protocols/eth"
+	"github.com/topdefi/egoncoin/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

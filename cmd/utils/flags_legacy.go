@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/eth/ethconfig"
+	"github.com/topdefi/egoncoin/eth/ethconfig"
 	"gopkg.in/urfave/cli.v1"
 )
 

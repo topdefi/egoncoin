@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

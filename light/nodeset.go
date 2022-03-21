@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/crypto"
-	"github.com/topdefi/Coin-Shiv/ethdb"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/crypto"
+	"github.com/topdefi/egoncoin/ethdb"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // NodeSet stores a set of trie nodes. It implements trie.Database and can also

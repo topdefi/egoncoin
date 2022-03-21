@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

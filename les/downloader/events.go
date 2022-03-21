@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/topdefi/Coin-Shiv/core/types"
+import "github.com/topdefi/egoncoin/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

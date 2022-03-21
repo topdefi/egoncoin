@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 func init() {

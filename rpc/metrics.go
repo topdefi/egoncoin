@@ -19,7 +19,7 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/metrics"
+	"github.com/topdefi/egoncoin/metrics"
 )
 
 var (

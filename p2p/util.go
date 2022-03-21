@@ -19,7 +19,7 @@ package p2p
 import (
 	"container/heap"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 // expHeap tracks strings and their expiry time.

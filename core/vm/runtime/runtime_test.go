@@ -24,21 +24,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/accounts/abi"
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/consensus"
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/core/asm"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/core/state"
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/core/vm"
-	"github.com/topdefi/Coin-Shiv/eth/tracers"
-	"github.com/topdefi/Coin-Shiv/eth/tracers/logger"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/accounts/abi"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/consensus"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/core/asm"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/core/state"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/core/vm"
+	"github.com/topdefi/egoncoin/eth/tracers"
+	"github.com/topdefi/egoncoin/eth/tracers/logger"
+	"github.com/topdefi/egoncoin/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/topdefi/Coin-Shiv/eth/tracers/js"
+	_ "github.com/topdefi/egoncoin/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -626,7 +626,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/topdefi/Coin-Shiv/issues/22649
+// see: https://github.com/topdefi/egoncoin/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

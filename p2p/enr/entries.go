@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // Entry is implemented by known node record entry types.

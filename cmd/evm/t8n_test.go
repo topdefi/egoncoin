@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/topdefi/Coin-Shiv/cmd/evm/internal/t8ntool"
-	"github.com/topdefi/Coin-Shiv/internal/cmdtest"
+	"github.com/topdefi/egoncoin/cmd/evm/internal/t8ntool"
+	"github.com/topdefi/egoncoin/internal/cmdtest"
 )
 
 func TestMain(m *testing.M) {

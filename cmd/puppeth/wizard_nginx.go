@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

@@ -19,7 +19,7 @@ package server
 import (
 	"reflect"
 
-	"github.com/topdefi/Coin-Shiv/p2p/nodestate"
+	"github.com/topdefi/egoncoin/p2p/nodestate"
 )
 
 type peerWrapper struct{ clientPeer } // the NodeStateMachine type system needs this wrapper

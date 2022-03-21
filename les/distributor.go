@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/les/utils"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/les/utils"
 )
 
 // requestDistributor implements a mechanism that distributes requests to

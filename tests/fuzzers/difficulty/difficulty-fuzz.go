@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/consensus/ethash"
-	"github.com/topdefi/Coin-Shiv/core/types"
+	"github.com/topdefi/egoncoin/consensus/ethash"
+	"github.com/topdefi/egoncoin/core/types"
 )
 
 type fuzzer struct {

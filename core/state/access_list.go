@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 type accessList struct {

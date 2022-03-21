@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
+	"github.com/topdefi/egoncoin/common/hexutil"
 )
 
 type MyType [5]byte

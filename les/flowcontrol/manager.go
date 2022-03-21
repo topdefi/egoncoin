@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
-	"github.com/topdefi/Coin-Shiv/common/prque"
+	"github.com/topdefi/egoncoin/common/mclock"
+	"github.com/topdefi/egoncoin/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

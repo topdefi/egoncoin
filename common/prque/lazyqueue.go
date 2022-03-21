@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/mclock"
+	"github.com/topdefi/egoncoin/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

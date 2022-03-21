@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/topdefi/Coin-Shiv/log"
+	"github.com/topdefi/egoncoin/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

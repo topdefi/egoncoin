@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 
-	"github.com/topdefi/Coin-Shiv/common"
+	"github.com/topdefi/egoncoin/common"
 )
 
 // hashes is a helper to implement sort.Interface.

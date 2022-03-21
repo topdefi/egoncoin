@@ -35,8 +35,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/topdefi/Coin-Shiv/core"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/core"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

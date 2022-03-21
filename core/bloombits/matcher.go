@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common/bitutil"
-	"github.com/topdefi/Coin-Shiv/crypto"
+	"github.com/topdefi/egoncoin/common/bitutil"
+	"github.com/topdefi/egoncoin/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

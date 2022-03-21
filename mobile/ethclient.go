@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/topdefi/Coin-Shiv/core/types"
-	"github.com/topdefi/Coin-Shiv/ethclient"
+	"github.com/topdefi/egoncoin/core/types"
+	"github.com/topdefi/egoncoin/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

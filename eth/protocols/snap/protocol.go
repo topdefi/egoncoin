@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/state/snapshot"
-	"github.com/topdefi/Coin-Shiv/rlp"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/state/snapshot"
+	"github.com/topdefi/egoncoin/rlp"
 )
 
 // Constants to match up protocol versions and messages

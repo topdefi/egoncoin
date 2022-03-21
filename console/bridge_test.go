@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/topdefi/Coin-Shiv/internal/jsre"
+	"github.com/topdefi/egoncoin/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

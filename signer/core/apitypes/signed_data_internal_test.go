@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/topdefi/Coin-Shiv/common/hexutil"
+	"github.com/topdefi/egoncoin/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

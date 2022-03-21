@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/topdefi/Coin-Shiv/internal/cmdtest"
+	"github.com/topdefi/egoncoin/internal/cmdtest"
 )
 
 type testEthkey struct {

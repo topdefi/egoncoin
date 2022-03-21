@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/tests/fuzzers/vflux"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/tests/fuzzers/vflux"
 )
 
 func main() {

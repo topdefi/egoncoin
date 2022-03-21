@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/topdefi/Coin-Shiv/common"
-	"github.com/topdefi/Coin-Shiv/core/rawdb"
-	"github.com/topdefi/Coin-Shiv/les/downloader"
-	"github.com/topdefi/Coin-Shiv/light"
-	"github.com/topdefi/Coin-Shiv/log"
-	"github.com/topdefi/Coin-Shiv/params"
+	"github.com/topdefi/egoncoin/common"
+	"github.com/topdefi/egoncoin/core/rawdb"
+	"github.com/topdefi/egoncoin/les/downloader"
+	"github.com/topdefi/egoncoin/light"
+	"github.com/topdefi/egoncoin/log"
+	"github.com/topdefi/egoncoin/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")
