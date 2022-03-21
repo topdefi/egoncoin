@@ -27,12 +27,12 @@ import (
 
 // Genesis hashes to enforce below configs on.
 var (
-	MainnetGenesisHash = common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af")
+	MainnetGenesisHash = common.HexToHash("0xbf96aa7ee8f4f521ca1be4ca797c52c82c0a9ca761fe47aba265b2ee855093eb")
 	RopstenGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
 	SepoliaGenesisHash = common.HexToHash("0x25a5cc106eea7138acab33231d7160d69cb777ee0c2c553fcddf5138993e6dd9")
 	RinkebyGenesisHash = common.HexToHash("0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177")
 	GoerliGenesisHash  = common.HexToHash("0xbf7e331f7f7c1dd2e05159666b3bf8bc7a8a3a9eb1d518969eab529dd9b88c1a")
-	TestEgonGenesisHash  = common.HexToHash("0xbf7e331f7f7c1dd2e05159666b3bf8bc7a8a3a9eb1d518969eab529dd9b88c1a")
+	TestEgonGenesisHash  = common.HexToHash("0xd4c7f6d71deddf9249a95da5d1e7f1eebdb41a20f48e91b04aef5ab5ffa9b103")
 )
 
 // TrustedCheckpoints associates each known checkpoint with the genesis hash of
@@ -80,9 +80,9 @@ var (
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 1,
-		SectionHead:  common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
-		CHTRoot:      common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
-		BloomRoot:    common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
+		SectionHead:  common.HexToHash("0xbf96aa7ee8f4f521ca1be4ca797c52c82c0a9ca761fe47aba265b2ee855093eb"),
+		CHTRoot:      common.HexToHash("0xbf96aa7ee8f4f521ca1be4ca797c52c82c0a9ca761fe47aba265b2ee855093eb"),
+		BloomRoot:    common.HexToHash("0xbf96aa7ee8f4f521ca1be4ca797c52c82c0a9ca761fe47aba265b2ee855093eb"),
 	}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
@@ -273,9 +273,9 @@ var (
 	// TestEgonTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	TestEgonTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 1,
-		SectionHead:  common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
-		CHTRoot:      common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
-		BloomRoot:    common.HexToHash("0b3de552599d7ee6508d2df35cfb04dc467c47139aca03fe779b052b331c01af"),
+		SectionHead:  common.HexToHash("0xd4c7f6d71deddf9249a95da5d1e7f1eebdb41a20f48e91b04aef5ab5ffa9b103"),
+		CHTRoot:      common.HexToHash("0xd4c7f6d71deddf9249a95da5d1e7f1eebdb41a20f48e91b04aef5ab5ffa9b103"),
+		BloomRoot:    common.HexToHash("0xd4c7f6d71deddf9249a95da5d1e7f1eebdb41a20f48e91b04aef5ab5ffa9b103"),
 	}
 
 	// TestnetCheckpointOracle contains a set of configs for the main network oracle.
