@@ -22,8 +22,8 @@ import "github.com/topdefi/egoncoin/common"
 // the main Ethereum network.
 var MainnetBootnodes = []string{
 	// EgonCoin Foundation Go Bootnodes
-	"enode://0abea40c4b2f5ad8b564f25c66622a6655b1ff20edcd1abd62fbddd9805c9623a5c01bb5a558f3f96f491e4d080b49a7cd650d7eb568824cfbb63452bc247f2e@66.29.144.165:30303",
-	"enode://dae28d3d0892c8ffd7843afa77acd802e2ec278eb5fa7acabb8124f71aece8f6501045238d1d5560412a85e20888d3e0d764a5762593412185e26b5c5b277979@66.29.144.166:30303",
+	"enode://1a23f1ee85a405d047b0779a72426f1bc7cf212e7aaee5fa88263400798f0b1e170654c1051f0a16b0b06c0daaa5697855e24c327fb13a3fd5218871380ac253@18.195.185.117:30303",
+	"enode://77c80204bc3887997a0dbe462a9b862f54ca8339e4eceb5cace8b1e5b24801f471f70598fbbb0753eaa5b9b7093068debf8c87e8100fbdd34af08f97e2be68b7@35.170.32.132:30303",
 }
 
 // RopstenBootnodes are the enode URLs of the P2P bootstrap nodes running on the
@@ -74,8 +74,8 @@ var GoerliBootnodes = []string{
 // TestEgon test network.
 var TestEgonBootnodes = []string{
 	// Upstream bootnodes
-	"enode://011f758e6552d105183b1761c5e2dea0111bc20fd5f6422bc7f91e0fabbec9a6595caf6239b37feb773dddd3f87240d99d859431891e4a642cf2a0a9e6cbb98a@51.141.78.53:30303",
-	"enode://176b9417f511d05b6b2cf3e34b756cf0a7096b3094572a8f6ef4cdcb9d1f9d00683bf0f83347eebdf3b81c3521c2332086d9592802230bf528eaf606a1d9677b@13.93.54.137:30303",
+	"enode://f8b60f3f20a722f4b44d9b244e972f8ebe667718fbe40522cd2eae7568dd1dff32ab97b91ed6653af7824ee2db777eb136e47ce375cf708a4c82d8672ba7b471@3.123.66.255:30303",
+	"enode://90fb1530da96dfc4eca797e0a9ec18b2898f33ab8d54e307e73ed96261865e0bed94a80cd40a17be5d2611f14b470e86d9151b14beec51ad998106e20a0a856a@34.199.236.89:30303",
 }
 
 var V5Bootnodes = []string{
