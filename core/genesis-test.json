@@ -1,6 +1,6 @@
 {
     "config": {
-      "chainId": 659,
+      "chainId": 759,
       "homesteadBlock": 0,
       "eip150Block": 0,
       "eip155Block": 0,
@@ -24,6 +24,6 @@
     "gasLimit": "0x5F5E100",
     "nonce": "0x0",
     "alloc": {
-      "D6FaAFCc37964DEDd4864cD507B8F29083842Def": { "balance": "510000000000000000000000000" }
+      "D6FaAFCc37964DEDd4864cD507B8F29083842Def": { "balance": "100000000000000000000000000" }
     }
   }

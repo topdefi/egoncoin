@@ -20,7 +20,7 @@ make all
 ### Ubuntu 18.04 + 20.04
 Clone EgonCoin
 ```
-https://github.dev/topdefi/egoncoin
+git clone https://github.dev/topdefi/egoncoin
 ```
 
 Setup Go path
@@ -39,7 +39,7 @@ source ~/.profile
 
 Run install script
 ```
-cd Coin-Shiv && chmod +x install-Ubuntu.sh && ./install-Ubuntu.sh
+cd egoncoin && chmod +x install-Ubuntu.sh && ./install-Ubuntu.sh
 ```
 
 
