@@ -283,7 +283,7 @@ func prepare(ctx *cli.Context) {
 	case ctx.GlobalIsSet(utils.GoerliFlag.Name):
 		log.Info("Starting Geth on Görli testnet...")
 
-	case ctx.GlobalIsSet(utils.TestEgonFlag.Name);
+	case ctx.GlobalIsSet(utils.TestEgonFlag.Name):
 		log.Info("Starting Geth on TestEgon testnet...")
 
 	case ctx.GlobalIsSet(utils.DeveloperFlag.Name):
